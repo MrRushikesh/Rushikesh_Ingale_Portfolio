@@ -349,7 +349,7 @@ header .navbar ul li a:hover{
 
   
   .home .image img{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 70%;
     height: 350px;
     margin-top:0rem;
