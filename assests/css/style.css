@@ -215,6 +215,8 @@ header .navbar ul li a:hover{
   z-index: 1;
   /* border: 2px solid red; */
 }
+
+
 .home .image img{
   width: 70%;
   height: 400px;
@@ -335,7 +337,14 @@ header .navbar ul li a:hover{
     padding-top: 1rem;
     margin-top:8rem;
     z-index: 1;
-    border: 2px solid green;
+    /* border: 2px solid green; */
+  }
+
+  .home .image{
+    flex: 1 1 40rem;
+    margin-top:5rem;
+    z-index: 1;
+    /* border: 2px solid red; */
   }
 
 
@@ -355,6 +364,24 @@ header .navbar ul li a:hover{
   }
   .home .content p span{
     font-size: 2.2rem;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .home .content{
+    flex: 1 1 40rem;
+    padding-top: 1rem;
+    margin-top:8rem;
+    z-index: 1;
+    /* border: 2px solid green; */
+  }
+
+  .home .image{
+    flex: 1 1 40rem;
+    margin-top:3rem;
+    z-index: 1;
+    /* border: 2px solid red; */
   }
 }
 /* hero media queries ends*/
@@ -453,15 +480,7 @@ header .navbar ul li a:hover{
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px){
-  .home .content{
-    flex: 1 1 40rem;
-    padding-top: 1rem;
-    margin-top:8rem;
-    z-index: 1;
-    /* border: 2px solid green; */
-  }
-
-
+ 
   .about .row .image{
     margin-top: 2rem;
   }
