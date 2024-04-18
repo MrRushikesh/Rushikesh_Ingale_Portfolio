@@ -205,7 +205,8 @@ header .navbar ul li a:hover{
 }
 .home .content{
   flex: 1 1 40rem;
-  padding-top: 6rem;
+  padding-top: 1rem;
+  margin-top:1rem;
   z-index: 1;
   /* border: 2px solid green; */
 }
@@ -216,9 +217,9 @@ header .navbar ul li a:hover{
 }
 .home .image img{
   width: 70%;
-  height: 450px;
+  height: 400px;
   margin-left: 6rem;
-  border-radius: 50%;
+  border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
@@ -329,6 +330,15 @@ header .navbar ul li a:hover{
 
 /* hero media queries starts*/
 @media(max-width:450px){
+  .home .content{
+    flex: 1 1 40rem;
+    padding-top: 1rem;
+    margin-top:8rem;
+    z-index: 1;
+    border: 2px solid green;
+  }
+
+
   .home .btn{
     margin: 4rem 0;
   }
@@ -338,6 +348,8 @@ header .navbar ul li a:hover{
   .home .image img{
     margin-top: -12rem;
   }
+ 
+
   .home .content p {
     font-size: 2.2rem;
   }
@@ -441,6 +453,15 @@ header .navbar ul li a:hover{
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px){
+  .home .content{
+    flex: 1 1 40rem;
+    padding-top: 1rem;
+    margin-top:8rem;
+    z-index: 1;
+    /* border: 2px solid green; */
+  }
+
+
   .about .row .image{
     margin-top: 2rem;
   }
